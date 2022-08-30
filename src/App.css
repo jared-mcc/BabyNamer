@@ -1,0 +1,52 @@
+.App {
+  height: 100vh;
+  background: hsla(29, 92%, 70%, 1);
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(
+    180deg,
+    hsla(29, 92%, 70%, 1) 0%,
+    hsla(0, 87%, 73%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    180deg,
+    hsla(29, 92%, 70%, 1) 0%,
+    hsla(0, 87%, 73%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    180deg,
+    hsla(29, 92%, 70%, 1) 0%,
+    hsla(0, 87%, 73%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F9B16E", endColorstr="#F68080", GradientType=1 );
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 0 !important;
+  transition-duration: .2s;
+}
+
+.card:hover {
+  background: none !important;
+  transition-duration: .2s;
+}
+
+.chart {
+  height: 100vh;
+  position: relative;
+  display: block;
+}
+
+.chartItem {
+  position: absolute;
+  padding: 5px;
+}
